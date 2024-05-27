@@ -13,15 +13,15 @@ from .. import text, util
 
 
 class HentainameBase():
-    """Base class for hentaifox extractors"""
+    """Base class for hentainame extractors"""
     category = "hentainame"
-    root = "https://hentai.name"
+    root = "https://www.hentai.name"
 
 
 class HentainameGalleryExtractor(HentainameBase, GalleryExtractor):
     """Extractor for image galleries on hentai.name"""
-    pattern = r"(?:https?://)?(?:www\.)?hentaifox\.name(/g/(\d+))"
-    example = "https://hentaifox.name/g/12345/"
+    pattern = r"(?:https?://)?(?:www\.)?hentai\.name(/g/(\d+))"
+    example = "https://www.hentai.name/g/12345/"
 
     def __init__(self, match):
         GalleryExtractor.__init__(self, match)
@@ -80,7 +80,7 @@ class HentainameSearchExtractor(HentainameBase, Extractor):
     subcategory = "search"
     pattern = (r"(?:https?://)?(?:www\.)?hentai\.name"
                r"(/(?:parody|tag|artist|character|search|group)/[^/?%#]+)")
-    example = "https://hentai.name/tag/TAG/"
+    example = "https://www.hentai.name/tag/TAG/"
 
     def __init__(self, match):
         Extractor.__init__(self, match)
