@@ -62,7 +62,7 @@ modules = [
     "hentaifox",
     "hentaihand",
     "hentaihere",
-    "henatiname",
+    "hentainame",
     "hiperdex",
     "hitomi",
     "hotleak",
