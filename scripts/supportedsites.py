@@ -59,6 +59,7 @@ CATEGORY_MAP = {
     "hentaifox"      : "HentaiFox",
     "hentaihand"     : "HentaiHand",
     "hentaihere"     : "HentaiHere",
+    "hentainame"     : "HentaiName",
     "hentaiimg"      : "Hentai Image",
     "hitomi"         : "Hitomi.la",
     "horne"          : "horne",
